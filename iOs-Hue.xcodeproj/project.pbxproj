@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4620645E737DF0181C50E831 /* Pods_iOs_HueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8967D94C646B4004F52EADE9 /* Pods_iOs_HueUITests.framework */; };
+		6860459409BC38CBA035B105 /* Pods_iOs_HueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4643A75A4DFB557DC3AFB1 /* Pods_iOs_HueTests.framework */; };
+		F344274FCF0B7AE3D909CC8F /* Pods_iOs_Hue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FD35CF85C705DAE8FF3DBC /* Pods_iOs_Hue.framework */; };
 		F6D2478B1F6FC08F005B4C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2478A1F6FC08F005B4C2A /* AppDelegate.swift */; };
 		F6D2478D1F6FC08F005B4C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2478C1F6FC08F005B4C2A /* ViewController.swift */; };
 		F6D247901F6FC08F005B4C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D2478E1F6FC08F005B4C2A /* Main.storyboard */; };
@@ -14,6 +17,13 @@
 		F6D247951F6FC08F005B4C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D247931F6FC08F005B4C2A /* LaunchScreen.storyboard */; };
 		F6D247A01F6FC08F005B4C2A /* iOs_HueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2479F1F6FC08F005B4C2A /* iOs_HueTests.swift */; };
 		F6D247AB1F6FC090005B4C2A /* iOs_HueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247AA1F6FC090005B4C2A /* iOs_HueUITests.swift */; };
+		F6D247B91F6FC77D005B4C2A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247B81F6FC77D005B4C2A /* Location.swift */; };
+		F6D247BB1F6FC7C4005B4C2A /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247BA1F6FC7C4005B4C2A /* LocationTableViewCell.swift */; };
+		F6D247C11F6FCE9C005B4C2A /* LocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247C01F6FCE9C005B4C2A /* LocationTableViewController.swift */; };
+		F6D247C31F6FD3E5005B4C2A /* Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247C21F6FD3E5005B4C2A /* Hue.swift */; };
+		F6D247C61F6FD49D005B4C2A /* HueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247C51F6FD49D005B4C2A /* HueTableViewCell.swift */; };
+		F6D247C81F6FD4B2005B4C2A /* HueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247C71F6FD4B2005B4C2A /* HueTableViewController.swift */; };
+		F6D247CA1F6FD6B1005B4C2A /* AlamoFireHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247C91F6FD6B1005B4C2A /* AlamoFireHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F4643A75A4DFB557DC3AFB1 /* Pods_iOs_HueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOs_HueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8967D94C646B4004F52EADE9 /* Pods_iOs_HueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOs_HueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		951230BFCDDA9E12FA894B2E /* Pods-iOs-HueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOs-HueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOs-HueTests/Pods-iOs-HueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		95B791167166937E4E4FC115 /* Pods-iOs-HueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOs-HueUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOs-HueUITests/Pods-iOs-HueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FD35CF85C705DAE8FF3DBC /* Pods_iOs_Hue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOs_Hue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7D786B280D9CEB970127F9 /* Pods-iOs-HueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOs-HueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOs-HueTests/Pods-iOs-HueTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABA25245C33A46FAFFF41F7B /* Pods-iOs-Hue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOs-Hue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOs-Hue/Pods-iOs-Hue.debug.xcconfig"; sourceTree = "<group>"; };
+		ED8DCF23ACCD70FA98E41D5A /* Pods-iOs-HueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOs-HueUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOs-HueUITests/Pods-iOs-HueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F1D25AC534294DC4070472E4 /* Pods-iOs-Hue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOs-Hue.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOs-Hue/Pods-iOs-Hue.release.xcconfig"; sourceTree = "<group>"; };
 		F6D247871F6FC08F005B4C2A /* iOs-Hue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOs-Hue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D2478A1F6FC08F005B4C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6D2478C1F6FC08F005B4C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,13 @@
 		F6D247A61F6FC090005B4C2A /* iOs-HueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOs-HueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D247AA1F6FC090005B4C2A /* iOs_HueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOs_HueUITests.swift; sourceTree = "<group>"; };
 		F6D247AC1F6FC090005B4C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D247B81F6FC77D005B4C2A /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F6D247BA1F6FC7C4005B4C2A /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		F6D247C01F6FCE9C005B4C2A /* LocationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewController.swift; sourceTree = "<group>"; };
+		F6D247C21F6FD3E5005B4C2A /* Hue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hue.swift; sourceTree = "<group>"; };
+		F6D247C51F6FD49D005B4C2A /* HueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HueTableViewCell.swift; sourceTree = "<group>"; };
+		F6D247C71F6FD4B2005B4C2A /* HueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HueTableViewController.swift; sourceTree = "<group>"; };
+		F6D247C91F6FD6B1005B4C2A /* AlamoFireHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoFireHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F344274FCF0B7AE3D909CC8F /* Pods_iOs_Hue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6860459409BC38CBA035B105 /* Pods_iOs_HueTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4620645E737DF0181C50E831 /* Pods_iOs_HueUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5942B8F4751ABB0C9DD9407A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABA25245C33A46FAFFF41F7B /* Pods-iOs-Hue.debug.xcconfig */,
+				F1D25AC534294DC4070472E4 /* Pods-iOs-Hue.release.xcconfig */,
+				951230BFCDDA9E12FA894B2E /* Pods-iOs-HueTests.debug.xcconfig */,
+				AB7D786B280D9CEB970127F9 /* Pods-iOs-HueTests.release.xcconfig */,
+				95B791167166937E4E4FC115 /* Pods-iOs-HueUITests.debug.xcconfig */,
+				ED8DCF23ACCD70FA98E41D5A /* Pods-iOs-HueUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE6911EEE19D669777CC55F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4FD35CF85C705DAE8FF3DBC /* Pods_iOs_Hue.framework */,
+				6F4643A75A4DFB557DC3AFB1 /* Pods_iOs_HueTests.framework */,
+				8967D94C646B4004F52EADE9 /* Pods_iOs_HueUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F6D2477E1F6FC08F005B4C2A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				F6D2479E1F6FC08F005B4C2A /* iOs-HueTests */,
 				F6D247A91F6FC090005B4C2A /* iOs-HueUITests */,
 				F6D247881F6FC08F005B4C2A /* Products */,
+				5942B8F4751ABB0C9DD9407A /* Pods */,
+				DE6911EEE19D669777CC55F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +151,16 @@
 		F6D247891F6FC08F005B4C2A /* iOs-Hue */ = {
 			isa = PBXGroup;
 			children = (
+				F6D247C41F6FD488005B4C2A /* HueHelper */,
+				F6D247BF1F6FCE6C005B4C2A /* PlaceHelper */,
+				F6D247BC1F6FCDE9005B4C2A /* Models */,
 				F6D2478A1F6FC08F005B4C2A /* AppDelegate.swift */,
 				F6D2478C1F6FC08F005B4C2A /* ViewController.swift */,
 				F6D2478E1F6FC08F005B4C2A /* Main.storyboard */,
 				F6D247911F6FC08F005B4C2A /* Assets.xcassets */,
 				F6D247931F6FC08F005B4C2A /* LaunchScreen.storyboard */,
 				F6D247961F6FC08F005B4C2A /* Info.plist */,
+				F6D247C91F6FD6B1005B4C2A /* AlamoFireHandler.swift */,
 			);
 			path = "iOs-Hue";
 			sourceTree = "<group>";
@@ -125,6 +183,33 @@
 			path = "iOs-HueUITests";
 			sourceTree = "<group>";
 		};
+		F6D247BC1F6FCDE9005B4C2A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6D247B81F6FC77D005B4C2A /* Location.swift */,
+				F6D247C21F6FD3E5005B4C2A /* Hue.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F6D247BF1F6FCE6C005B4C2A /* PlaceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F6D247BA1F6FC7C4005B4C2A /* LocationTableViewCell.swift */,
+				F6D247C01F6FCE9C005B4C2A /* LocationTableViewController.swift */,
+			);
+			name = PlaceHelper;
+			sourceTree = "<group>";
+		};
+		F6D247C41F6FD488005B4C2A /* HueHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F6D247C51F6FD49D005B4C2A /* HueTableViewCell.swift */,
+				F6D247C71F6FD4B2005B4C2A /* HueTableViewController.swift */,
+			);
+			name = HueHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6D247AF1F6FC090005B4C2A /* Build configuration list for PBXNativeTarget "iOs-Hue" */;
 			buildPhases = (
+				0C9C55A09B361B23194E69DE /* [CP] Check Pods Manifest.lock */,
 				F6D247831F6FC08F005B4C2A /* Sources */,
 				F6D247841F6FC08F005B4C2A /* Frameworks */,
 				F6D247851F6FC08F005B4C2A /* Resources */,
+				328FF7ACD889B1AF0919F0FA /* [CP] Embed Pods Frameworks */,
+				C10A5B3086FDAB0D4A30E7CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6D247B21F6FC090005B4C2A /* Build configuration list for PBXNativeTarget "iOs-HueTests" */;
 			buildPhases = (
+				318F25AC4467E901149690A1 /* [CP] Check Pods Manifest.lock */,
 				F6D247971F6FC08F005B4C2A /* Sources */,
 				F6D247981F6FC08F005B4C2A /* Frameworks */,
 				F6D247991F6FC08F005B4C2A /* Resources */,
+				0A60F1501538EAC2C451AA25 /* [CP] Embed Pods Frameworks */,
+				CFEFA575D5CD5E9B7AA10FA3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6D247B51F6FC090005B4C2A /* Build configuration list for PBXNativeTarget "iOs-HueUITests" */;
 			buildPhases = (
+				EE76F87431A87D300A59BD04 /* [CP] Check Pods Manifest.lock */,
 				F6D247A21F6FC090005B4C2A /* Sources */,
 				F6D247A31F6FC090005B4C2A /* Frameworks */,
 				F6D247A41F6FC090005B4C2A /* Resources */,
+				6978A45BF1816245AFEB3A8E /* [CP] Embed Pods Frameworks */,
+				7CBF70D80017D4C33C7E4638 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +348,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A60F1501538EAC2C451AA25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOs-HueTests/Pods-iOs-HueTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C9C55A09B361B23194E69DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOs-Hue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		318F25AC4467E901149690A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOs-HueTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		328FF7ACD889B1AF0919F0FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOs-Hue/Pods-iOs-Hue-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOs-Hue/Pods-iOs-Hue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6978A45BF1816245AFEB3A8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOs-HueUITests/Pods-iOs-HueUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CBF70D80017D4C33C7E4638 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOs-HueUITests/Pods-iOs-HueUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C10A5B3086FDAB0D4A30E7CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOs-Hue/Pods-iOs-Hue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFEFA575D5CD5E9B7AA10FA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOs-HueTests/Pods-iOs-HueTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE76F87431A87D300A59BD04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOs-HueUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F6D247831F6FC08F005B4C2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D247C81F6FD4B2005B4C2A /* HueTableViewController.swift in Sources */,
+				F6D247C61F6FD49D005B4C2A /* HueTableViewCell.swift in Sources */,
 				F6D2478D1F6FC08F005B4C2A /* ViewController.swift in Sources */,
+				F6D247B91F6FC77D005B4C2A /* Location.swift in Sources */,
+				F6D247C31F6FD3E5005B4C2A /* Hue.swift in Sources */,
+				F6D247BB1F6FC7C4005B4C2A /* LocationTableViewCell.swift in Sources */,
+				F6D247C11F6FCE9C005B4C2A /* LocationTableViewController.swift in Sources */,
 				F6D2478B1F6FC08F005B4C2A /* AppDelegate.swift in Sources */,
+				F6D247CA1F6FD6B1005B4C2A /* AlamoFireHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +665,7 @@
 		};
 		F6D247B01F6FC090005B4C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA25245C33A46FAFFF41F7B /* Pods-iOs-Hue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOs-Hue/Info.plist";
@@ -424,6 +678,7 @@
 		};
 		F6D247B11F6FC090005B4C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D25AC534294DC4070472E4 /* Pods-iOs-Hue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iOs-Hue/Info.plist";
@@ -436,6 +691,7 @@
 		};
 		F6D247B31F6FC090005B4C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951230BFCDDA9E12FA894B2E /* Pods-iOs-HueTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +706,7 @@
 		};
 		F6D247B41F6FC090005B4C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7D786B280D9CEB970127F9 /* Pods-iOs-HueTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +721,7 @@
 		};
 		F6D247B61F6FC090005B4C2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B791167166937E4E4FC115 /* Pods-iOs-HueUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "iOs-HueUITests/Info.plist";
@@ -477,6 +735,7 @@
 		};
 		F6D247B71F6FC090005B4C2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8DCF23ACCD70FA98E41D5A /* Pods-iOs-HueUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "iOs-HueUITests/Info.plist";
@@ -507,6 +766,7 @@
 				F6D247B11F6FC090005B4C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6D247B21F6FC090005B4C2A /* Build configuration list for PBXNativeTarget "iOs-HueTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +775,7 @@
 				F6D247B41F6FC090005B4C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6D247B51F6FC090005B4C2A /* Build configuration list for PBXNativeTarget "iOs-HueUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +784,7 @@
 				F6D247B71F6FC090005B4C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
