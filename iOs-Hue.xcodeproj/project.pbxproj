@@ -24,6 +24,7 @@
 		F6D247C61F6FD49D005B4C2A /* HueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247C51F6FD49D005B4C2A /* HueTableViewCell.swift */; };
 		F6D247C81F6FD4B2005B4C2A /* HueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247C71F6FD4B2005B4C2A /* HueTableViewController.swift */; };
 		F6D247CA1F6FD6B1005B4C2A /* AlamoFireHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247C91F6FD6B1005B4C2A /* AlamoFireHandler.swift */; };
+		F6D247CD1F70FCC6005B4C2A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D247CC1F70FCC6005B4C2A /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		F6D247C51F6FD49D005B4C2A /* HueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HueTableViewCell.swift; sourceTree = "<group>"; };
 		F6D247C71F6FD4B2005B4C2A /* HueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HueTableViewController.swift; sourceTree = "<group>"; };
 		F6D247C91F6FD6B1005B4C2A /* AlamoFireHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamoFireHandler.swift; sourceTree = "<group>"; };
+		F6D247CC1F70FCC6005B4C2A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		F6D247891F6FC08F005B4C2A /* iOs-Hue */ = {
 			isa = PBXGroup;
 			children = (
+				F6D247CB1F70FCA1005B4C2A /* HueDetail */,
 				F6D247C41F6FD488005B4C2A /* HueHelper */,
 				F6D247BF1F6FCE6C005B4C2A /* PlaceHelper */,
 				F6D247BC1F6FCDE9005B4C2A /* Models */,
@@ -208,6 +211,14 @@
 				F6D247C71F6FD4B2005B4C2A /* HueTableViewController.swift */,
 			);
 			name = HueHelper;
+			sourceTree = "<group>";
+		};
+		F6D247CB1F70FCA1005B4C2A /* HueDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F6D247CC1F70FCC6005B4C2A /* DetailViewController.swift */,
+			);
+			name = HueDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -512,6 +523,7 @@
 				F6D247C31F6FD3E5005B4C2A /* Hue.swift in Sources */,
 				F6D247BB1F6FC7C4005B4C2A /* LocationTableViewCell.swift in Sources */,
 				F6D247C11F6FCE9C005B4C2A /* LocationTableViewController.swift in Sources */,
+				F6D247CD1F70FCC6005B4C2A /* DetailViewController.swift in Sources */,
 				F6D2478B1F6FC08F005B4C2A /* AppDelegate.swift in Sources */,
 				F6D247CA1F6FD6B1005B4C2A /* AlamoFireHandler.swift in Sources */,
 			);

@@ -14,6 +14,7 @@ class Hue {
     var brightness = Int()
     var name = String()
     var effect = String()
+    var alert = String()
     var sat = Int()
     var hue = Int()
     var x = Float()

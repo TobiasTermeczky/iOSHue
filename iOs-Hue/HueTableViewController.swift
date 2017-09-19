@@ -43,17 +43,19 @@ class HueTableViewController: UITableViewController {
                                     }
                                     
                                     let mHue = result["state"]["hue"].int
-                                    print(mHue!)
-                                    hue.id = id!
-                                    hue.name = name!
-                                    hue.brightness = bri!
-                                    
-                                    hue.on = on!
-                                    
-                                    
-                                    self.hues.append(hue)
-                                    
-                                    
+                                    if (mHue == nil){
+                                        print("empty")
+                                    }else{
+                                        print(mHue!)
+                                        hue.id = id!
+                                        hue.name = name!
+                                        hue.brightness = bri!
+                                        
+                                        hue.on = on!
+                                        
+                                        
+                                        self.hues.append(hue)
+                                    }
                                 }
                                 self.tableView.reloadData()
                             }
@@ -94,6 +96,16 @@ class HueTableViewController: UITableViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "hueDetailSegue" {
+            if let destination = segue.destination as? DetailViewController {
+                if let indexPath = self.tableView.indexPathForSelectedRow {
+                    let hue = hues [(indexPath as NSIndexPath).row]
+                    destination.hue = hue
+                    destination.baseUrl = self.baseUrl
+                    destination.token = self.token
+                }
+            }
+        }
     }
 
 }
