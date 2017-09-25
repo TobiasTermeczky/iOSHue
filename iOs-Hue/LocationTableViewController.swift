@@ -18,7 +18,7 @@ class LocationTableViewController: UITableViewController {
         let l1 = Location()
         l1.name = "LA134"
         l1.ipAdress = "http://192.168.1.179/api/"
-        l1.token = "80b8a9620291a47fec92fa34484f5b"
+        l1.token = "M4MLKGnNIs-FIcksCcAGGGt-Kjb3hXpEkMUFEIco"
         
         self.locations.append(l1)
         
