@@ -61,6 +61,12 @@ class HueTableViewController: UITableViewController {
                             }
         }
     }
+    
+    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+        for hue in hues {
+        hue.setDisco(url: "\(baseUrl)\(token)/lights/\(hue.id)/state/")
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

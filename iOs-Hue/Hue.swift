@@ -73,6 +73,7 @@ class Hue {
     }
     
     func setDisco(url: String){
+        print("Disco")
         let parameters = ["effect": "colorloop", "alert": "lselect"]
         
         ah.doRequest(url: url, parameters: parameters, method: .put)
