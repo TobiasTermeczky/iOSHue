@@ -47,7 +47,7 @@ class HueTableViewController: UITableViewController {
                                         print("empty")
                                     }else{
                                         print(mHue!)
-                                        hue.id = id!
+                                        hue.id = id
                                         hue.name = name!
                                         hue.brightness = bri!
                                         
